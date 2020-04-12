@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 200px;
+}
+.wrapper h2{
+    font-family: 'century gothic';
+    font-size: 50px;
+    padding: 30px 30px;
+    padding-bottom: 10px;
+}
+.wrapper p{
+    font-family: 'century gothic';
+    font-size: 20px;
+    padding: 30px 30px;
+    
+    
+}
+.second{
+    width: 100%;
+}
+@media only screen and (min-width: 768px){
+    .wrapper{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        width: 45%;
+        float: right;
+        padding: 20px 10px 0px 5px;
+    }
+    .second{
+        width: 45%;
+        float: left;
+        padding: 70px 10px 0px 30px;
+    }
+    .wrapper p{
+        padding-bottom: 5px;
+    }
+
+}
